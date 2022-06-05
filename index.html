@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+	<script language="javascript">
+	
+
+		// 👇️ Change text color on mouseover
+		function TextColorRed(x){
+			x.style.color ='Red';
+		}
+
+		// 👇️ Change text color back on mouseout
+		function TextColorWhite(x){
+			x.style.color ='White';
+		}
+	</script>
+<title>Tic-Tac-Toe</title>
+</head>
+<body class="background">
+   <h1 class="title">Tic Tac Toe</h1>
+	<div class="background display">
+	  <div id="choose1">Please Choose<br></div>
+		<p onClick="JavaScript:location.href='ttt_2_player.html'"  onMouseOver="TextColorRed(this)" onMouseOut="TextColorWhite(this)">Two (2) Players Mode</p>
+		or<br>
+		<p onClick="JavaScript:location.href='ttt_vs_computer.html'"  onMouseOver="TextColorRed(this)" onMouseOut="TextColorWhite(this)">Player Vs Computer Mode</p>
+		<p>&nbsp;</p>
+		<p><img src="download.jpg" border=5></p>
+	</div>
+	
+	
+</body>
+</html>

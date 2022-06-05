@@ -1,0 +1,54 @@
+[debug] [2022-06-05T09:57:11.049Z] ----------------------------------------------------------------------
+[debug] [2022-06-05T09:57:11.051Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nikna\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-05T09:57:11.052Z] CLI Version:   11.0.1
+[debug] [2022-06-05T09:57:11.052Z] Platform:      win32
+[debug] [2022-06-05T09:57:11.052Z] Node Version:  v16.15.0
+[debug] [2022-06-05T09:57:11.053Z] Time:          Sun Jun 05 2022 17:57:11 GMT+0800 (Malaysia Time)
+[debug] [2022-06-05T09:57:11.054Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-05T09:57:11.141Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-05T09:57:11.142Z] > authorizing via signed-in user (niknaza@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\tictactoe
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-05T09:57:17.547Z] Using project from CLI flag: tictactoe-24cb0
+[debug] [2022-06-05T09:57:17.550Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-24cb0 [none]
+[debug] [2022-06-05T09:57:18.209Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-24cb0 200
+[debug] [2022-06-05T09:57:18.210Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-24cb0 {"projectId":"tictactoe-24cb0","projectNumber":"286760509516","displayName":"TicTacToe","name":"projects/tictactoe-24cb0","resources":{"hostingSite":"tictactoe-24cb0","storageBucket":"tictactoe-24cb0.appspot.com","locationId":"asia-southeast1"},"state":"ACTIVE"}
+[info] i  Using project tictactoe-24cb0 (TicTacToe) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of public/404.html 
+[debug] [2022-06-05T09:59:18.465Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-06-05T09:59:18.531Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-06-05T09:59:18.532Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.8.2","browserURL":"https://www.gstatic.com/firebasejs/9.8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.8.2/firebase.tgz"},"live":{"version":"9.8","browserURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.8.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.8.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.8.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.8.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.8.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.8.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.8.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.8.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.8.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.8.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.8.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 

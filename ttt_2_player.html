@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+	
+	/*define audio files*/
+	<script language="javascript">
+		var audio_o = new Audio("o.mp3");
+		var audio_x = new Audio("x.mp3");
+		var audio_win =new Audio("win.wav");
+		var audio_lost=new Audio("lost.wav");
+		var audio_tie=new Audio("tie.wav");	
+	
+	</script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+	<!--main - background and size has been set in style sheet-->
+    <main class="background">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+	  <section class="display announcer">Game On</section>
+	
+	<!--div is used to dynamically update player score-->
+		<center><div id="score" align="center">
+		Player Score 0
+		</div></center>
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+     <!--Define tictactoe tile-->
+		<section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        
+      <section class="controls">
+       	<button id="home" onClick="location.href='index.html'">Home</button> 
+		<button id="reset" onClick="audio_x.play()">Reset</button>
+        </section>
+		<center>
+		<section class="note">Note: this game is built and work best on Chrome and Firefox.</section>
+		</center>
+    </main>
+	
+</body>
+</html>
